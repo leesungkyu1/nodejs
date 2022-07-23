@@ -7,8 +7,6 @@ const process = spawn('java', ['GenController']);
 
 
 
-
-
 process.stdout.on('data', (data)=> {
     console.log(data.toString());
 }); //실행 결과
